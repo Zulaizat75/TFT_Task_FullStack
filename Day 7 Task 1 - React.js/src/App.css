@@ -1,0 +1,39 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 10px auto;
+}
+
+table {
+  width: 100%;
+  border-width: 10px;
+  border-color: black;
+  border-collapse: collapse;
+  background-color: azure;
+  margin: auto;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th{
+  background-color: beige;
+}
+
+td:hover, tr:hover{
+  background-color: beige;
+}
+
+tr:nth-child(even) {
+  background-color: aliceblue;
+}
+
+tr:nth-child(odd) {
+  background-color: azure;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

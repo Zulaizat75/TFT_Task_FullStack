@@ -1,0 +1,54 @@
+.container{
+    text-align: center;
+    margin: 10px 0;
+}
+
+table{
+    margin: auto;
+}
+
+input{
+    background-color: aliceblue;
+    width: 450px;
+    font-size: 35px;
+    border-radius: 5px;
+}
+
+input:hover{
+    background-color: darkgray;
+}
+
+.clear{
+    background-color: red;
+    color: white;
+}
+
+button{
+    margin: 5px 8px;
+    padding: 10px;
+    background-color: beige;
+    width: 95px;
+}
+
+button:hover{
+    cursor: pointer;
+
+}
+.calculator{
+    background-color: bisque;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 10px;
+}
+.calculator_keys table {
+    width: 100%;
+}
+
+.zero{
+    width: 230px;
+}
+
+.equal{
+    color: darkcyan;
+    height: 100px;
+}

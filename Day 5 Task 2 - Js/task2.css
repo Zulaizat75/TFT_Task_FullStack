@@ -1,0 +1,30 @@
+body{
+    background: darkkhaki;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.input-box img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.container{
+    text-align: center;
+    margin: auto;
+}
+
+#password{
+    font-size: 30px;
+    max-width: 400px;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+#message{
+    font-size: 30px;
+    display: none;
+}
